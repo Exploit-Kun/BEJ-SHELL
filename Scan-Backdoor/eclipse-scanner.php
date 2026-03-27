@@ -3,62 +3,16 @@
 //  ECLIPSE SECURITY LABS - SHELL SCANNER
 // =======================================================================
 date_default_timezone_set('Asia/Jakarta');
-$forbiden_function = [
-    'title>Gecko ',
-    'date_default_timezone_set("Asia/Jakarta");',
-    'goto sHNkh; sHNkh: $EnoeA = tmpfile();',
-
-    'if(!isset($_COOKIE[\'Pass\'])',
-    'WSO_SHELL',
-    'eval($_POST[\'code\'])',
-    'action=cmd&',
-    'name="cmd"',
-
-    'c99sh',
-    'c99shell',
-    'cmd=' . chr(36) . '_POST[\'cmd\']',
-    'goto FORM_ACTION',
-
-    'r57shell',
-    'Sistem: ' . chr(36) . '_SERVER[\'SERVER_SOFTWARE\']',
-
-    'b374k',
-    'b374k - Priv8',
-
-    'antichat',
-    'Antichat.ru Shell',
-
-    'eval(base64_decode(',
-    'assert(base64_decode(',
-    'preg_replace("/.*/e",',
-    'create_function(',
-    'system($_GET[',
-    'exec($_POST[',
-    'shell_exec($_REQUEST[',
-    'passthru($_GET[',
-    'popen($_POST[',
-    'proc_open($_GET[',
-    'include($_GET[',
-    'require($_POST[',
-
-    'file_get_contents($_GET[',
-    'curl_exec(',
-    'fsockopen(',
-    'pfsockopen(',
-
-    'gzinflate(base64_decode(',
-    'str_rot13(',
-    'pack("H*",',
-    'hex2bin(',
-
-    'auto_prepend_file',
-    'php_value auto_prepend_file',
-
-    '$auth_pass =',
-    'if(isset($_POST[\'code\'])',
-    'function actionphp()',
-    'cmd=' . chr(36) . '_POST',
-    'cmd=' . chr(36) . '_GET',
+$forbiden_function = ["eval","system","create_function","assert","chdir",
+    "base64_decode","shell_exec","exec","passthru","popen",
+    "_halt_compiler","file_get_contents(","shell(","base64_encode(",
+    "webconsole","uploader","hacked","move_uploaded_file",
+    "hex2bin(","bin2hex(","WSOstripslashes","AGUSTUS_17_1945",
+    "Cyto","con7ext","Fileman","68746d6c7370656369616c6368617273",
+    "xiaoxiannv","ruzhu","edoced_46esab","Solevisible","Zeerx7",
+    "phpFileManager","dZNOmgVpUDdbg","indoxploit","mini shell",
+    "minishell","tinyfilemanager.github.io","xleet","b374k",
+    "set_magic_quotes_runtime(","pastebin","alfa","filemanager",
 ];
 $malicious_folders = [
     "ALFA_DATA/alfacgiapi"
