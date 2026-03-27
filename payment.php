@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if(isset($_POST['password']) && $_POST['password'] === 'admin@123') {
+if(isset($_POST['password']) && $_POST['password'] === 'passwordkun') {
     $_SESSION['authenticated'] = true;
 }
 
